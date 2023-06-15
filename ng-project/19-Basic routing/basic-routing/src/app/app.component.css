@@ -1,0 +1,33 @@
+header{
+  width: 100vw;
+  height: 15vh;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.current-route:link, .current-route:visited{
+  background: #333;
+  color: #fff;
+}

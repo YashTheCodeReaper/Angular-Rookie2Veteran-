@@ -1,0 +1,8 @@
+<div class="flex-box">
+  <h1>Custom Structural Directive</h1>
+  <ng-container *ngFor="let person of persons">
+    <h3 *appUnless="person.age < 18">
+      {{ person.name }}
+    </h3>
+  </ng-container>
+</div>

@@ -1,0 +1,13 @@
+<div class="flex-box">
+  <h1>Attribute Directives</h1>
+  <h3>ngClass Example:</h3>
+  <h5 [ngClass]="{'danger-text': dangerText}">I am not in danger, I am the danger.</h5>
+  <button type="button" (click)="onDanger()">ngClass</button>
+</div>
+
+<div class="flex-box">
+  <h1>Attribute Directives</h1>
+  <h3>ngStyle Example:</h3>
+  <h5 [ngStyle]="{'color': dangerText ? 'red' : 'green'}">I am not in danger, I am the danger.</h5>
+  <button type="button" (click)="onDanger()">ngStyle</button>
+</div>

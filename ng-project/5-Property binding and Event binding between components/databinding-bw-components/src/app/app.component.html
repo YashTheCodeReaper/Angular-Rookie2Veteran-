@@ -1,0 +1,8 @@
+<div class="flex-box">
+  <app-hero
+  *ngFor="let hero of heroElement; let i = index"
+  [heroElement]="hero"
+  [i]="i+1"
+  (killHeroElement)="killHero($event)"
+  ></app-hero>
+</div>

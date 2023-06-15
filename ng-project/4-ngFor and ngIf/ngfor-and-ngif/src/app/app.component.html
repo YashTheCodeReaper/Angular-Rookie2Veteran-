@@ -1,0 +1,13 @@
+<div class="flex-box">
+  <h1>ngFor Example:</h1>
+  <button type="button" (click)="genArray()">Generate Array</button>
+  <ul>
+    <li *ngFor="let movie of movies">{{movie.name}}-{{movie.language}}</li>
+  </ul>
+</div>
+
+<div class="flex-box">
+  <h1>ngIf Example:</h1>
+  <button type="button" (click)="togglePara()">Toggle Hide Paragraph using ngIf</button>
+  <p *ngIf="hidePara">Press the above button to toggle hide/reveal me!</p>
+</div>

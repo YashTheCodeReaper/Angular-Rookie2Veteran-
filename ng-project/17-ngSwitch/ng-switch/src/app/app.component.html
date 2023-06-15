@@ -1,0 +1,10 @@
+<div class="flex-box">
+  <ng-container *ngFor="let age of ages">
+    <div [ngSwitch]="age">
+      <h3 *ngSwitchCase="10">Hello child!</h3>
+      <h3 *ngSwitchCase="20">Hey man!</h3>
+      <h3 *ngSwitchCase="30">Greetings Sir!</h3>
+      <h3 *ngSwitchDefault>Not a valid age</h3>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,7 @@
+<div class="flex-box">
+  <h1>@ViewChild Example</h1>
+  <label for="movie">Your Favourite Movie?</label>
+  <input type="text" name="movie" #favMovie>
+  <button type="button" (click)="regMovie()">Register</button>
+  <h2 *ngIf="movie != ''">Your favourite movie is {{movie}}</h2>
+</div>
